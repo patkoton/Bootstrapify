@@ -1,0 +1,12 @@
+.nav-link{
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    font-weight: bold;
+}
+.img {
+    background-size: cover;
+    background repeat: no-repeat;
+    width: 100px;
+    background: linear-gradient(0deg, rgba(23, 16, 16, 0.49), rgba(23, 16, 16, 0.49)), url(./assets/images/IMG-20210529-WA0007.jpg);
+    margin-top: 60px;
+}

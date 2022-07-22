@@ -1,0 +1,101 @@
+.search-icon{
+    position: absolute;
+    right: 150px;
+    bottom: 20px;
+}
+::placeholder{
+    color: #65a026 !important;
+}
+.searchbar{
+    border: 1px solid #65a026;
+}
+
+.btnlogin{
+    border-radius: 1rem;
+    background-color: #65a026;
+    padding-left: 3em;
+    padding-right: 3em;
+    color: white;
+    border: 1px solid #65a026;
+}
+
+.home{
+    color: #65a026;
+}
+.btn-started{
+    border: 1px solid#65a026;
+    border-radius: 1em;
+    background-color:#65a026 ;
+    color: white;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-bottom:60px ;
+}
+.promotion{
+    position: absolute;
+    width: 1265px;
+    height: 40px;
+    top: 19px;
+    background-color: #65a026;
+    color: white;
+    text-align: center;
+}
+.cal{
+    height: 400px;
+}
+.tag{
+    color: black;
+}
+.sect{
+    width: 1264px;
+    height: 300px;
+    border-style: solid;
+    border-color:#FFFFFF;
+}
+.rect{
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+}
+.abt{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #65a026;
+}
+.ref{
+    text-decoration: none;
+    color:#65a026;;
+}
+.li{
+    margin-top: 30px;
+    color: #65a026;
+}
+.op{
+    color: #65a026;
+    text-align: center;
+    margin-top: 20px;
+}
+.nav-link{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.nv{
+    margin-right: 320px;
+}
+/* .fruits{
+    margin-left: 10px;
+}
+.cereals{
+    margin-left: 10px;
+}
+.grains{
+    margin-left: 10px;
+} */
+.lorem{
+    color: black;
+}
+.fruits{
+    border-style: solid;
+    border-color: #65a026;
+    padding-left: 50px;
+}

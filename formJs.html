@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Form</title>
+    <link rel="stylesheet" href="./sike.css">
+</head>
+<body>
+    <h3>Registration Form with Validation</h3>
+    <form method="POST" name="regForm" onsubmit="return validateForm()">
+        <fieldset>
+        <legend>Registration Form</legend>
+        <label for="full_name">Full Name:</label><br>
+        <input type="text" id="full_name" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="text" name="phone" id="phone"><br>
+        <label for="tribe">Tribe</label><br>
+        <select name="tribe" id="">
+            <option value="-1 selected">Choose one</option>
+            <option value="ladi-kwali">Egbira</option>
+            <option value="queen-amina">Ijaw</option>
+            <option value="margaret-ekpo">Ikale</option><br>
+        </select><br><br>
+        <input type="submit" name="submit" value="Submit"><br>
+    </fieldset>
+    </form>
+</body>
+<script src="./sike.js"></script>
+</html>
